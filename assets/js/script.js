@@ -2,6 +2,8 @@ import $ from 'jquery';
 import 'bootstrap';
 import b from '../images/bird.jpg';
 import s from '../images/squirrel.jpg';
+import 'bootstrap';
+import '../css/style.css';
 
 $('#bird').attr("src",b);
 $('#squirrel').attr("src",s);
