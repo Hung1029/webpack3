@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./assets/css/style.css":
+/*!******************************!*\
+  !*** ./assets/css/style.css ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./assets/css/style.css?");
+
+/***/ }),
+
 /***/ "./assets/images/bird.jpg":
 /*!********************************!*\
   !*** ./assets/images/bird.jpg ***!
@@ -116,7 +127,7 @@ eval("module.exports = \"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gxY
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_bird_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/bird.jpg */ \"./assets/images/bird.jpg\");\n/* harmony import */ var _images_bird_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_bird_jpg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _images_squirrel_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/squirrel.jpg */ \"./assets/images/squirrel.jpg\");\n/* harmony import */ var _images_squirrel_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_squirrel_jpg__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#bird').attr(\"src\",_images_bird_jpg__WEBPACK_IMPORTED_MODULE_2___default.a);\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#squirrel').attr(\"src\",_images_squirrel_jpg__WEBPACK_IMPORTED_MODULE_3___default.a);\n\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {\n\t// when a hanburger menu is clicked\n\tlet $ul = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".nav__list\"),\n\t\t $menu = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".nav__menu\");\n\n\tjquery__WEBPACK_IMPORTED_MODULE_0___default()($menu).click(function () {\n\t\t// toggle menu-click Class\n\t\t$ul.toggleClass(\"menu-click\");\n\t}); // end click event handler\n});\n\n\n//# sourceURL=webpack:///./assets/js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_bird_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/bird.jpg */ \"./assets/images/bird.jpg\");\n/* harmony import */ var _images_bird_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_bird_jpg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _images_squirrel_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/squirrel.jpg */ \"./assets/images/squirrel.jpg\");\n/* harmony import */ var _images_squirrel_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_squirrel_jpg__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../css/style.css */ \"./assets/css/style.css\");\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_4__);\n\r\n\r\n\r\n\r\n\r\n\r\n\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#bird').attr(\"src\",_images_bird_jpg__WEBPACK_IMPORTED_MODULE_2___default.a);\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()('#squirrel').attr(\"src\",_images_squirrel_jpg__WEBPACK_IMPORTED_MODULE_3___default.a);\r\n\r\n\r\njquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {\r\n\t// when a hanburger menu is clicked\r\n\tlet $ul = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".nav__list\"),\r\n\t\t $menu = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".nav__menu\");\r\n\r\n\tjquery__WEBPACK_IMPORTED_MODULE_0___default()($menu).click(function () {\r\n\t\t// toggle menu-click Class\r\n\t\t$ul.toggleClass(\"menu-click\");\r\n\t}); // end click event handler\r\n});\r\n\n\n//# sourceURL=webpack:///./assets/js/script.js?");
 
 /***/ }),
 
