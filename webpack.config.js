@@ -12,11 +12,20 @@ module.exports = {
     module:{
         rules:[
             {
-                use: ExtractTextPlugin.extract({
-                  use: "css-loader"
-                }),
+            
                 test: /\.css$/,
-              },
+                use: ExtractTextPlugin.extract({
+                    use: [{
+                       loader: 'css-loader',
+                       options: {
+                          url: false
+                       }
+                    }, {
+                       loader: 'postcss-loader'
+                    }]
+                 })
+                
+             },
               {
                 test: /\.(png|woff|woff2|eot|ttf|svg)$/,
                 use:{
