@@ -17,6 +17,16 @@ module.exports = {
                 }),
                 test: /\.css$/,
               },
+              {
+                test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+                use:{
+                    loader:'file-loader',
+                    options: {
+                        outputPath: 'css/fonts',
+                        name: '[name].[ext]',
+                    },
+                }
+            },
         {
             test:/\.(jpe?g|png|gif|svg)$/,
             use:[
@@ -32,6 +42,7 @@ module.exports = {
         
     ]
 }
+
 
 ]
 },
